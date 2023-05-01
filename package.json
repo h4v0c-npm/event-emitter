@@ -1,0 +1,25 @@
+{
+    "name": "@h4v0c/event-emitter",
+    "version": "1.0.0",
+    "description": "A simple Event Emitter class and GlobalEventEmitter",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/h4v0c-npm/event-emitter.git"
+    },
+    "keywords": [],
+    "author": "John Wakley <john.wakley@icloud.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/h4v0c-npm/event-emitter/issues"
+    },
+    "homepage": "https://github.com/h4v0c-npm/event-emitter#readme",
+    "devDependencies": {
+        "typescript": "^5.0.4"
+    }
+}
