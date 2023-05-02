@@ -1,6 +1,6 @@
 {
     "name": "@h4v0c/event-emitter",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A simple Event Emitter class and GlobalEventEmitter",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",

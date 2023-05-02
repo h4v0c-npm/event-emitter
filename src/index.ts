@@ -36,13 +36,3 @@ export class EventEmitter {
         return this;
     }
 }
-
-let _instance;
-
-export function GetGlobalEventEmitter() {
-    if (!_instance) {
-        _instance = new EventEmitter();
-    }
-
-    return (_instance);
-}
